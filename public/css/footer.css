@@ -1,0 +1,13 @@
+footer {
+	text-align: center;
+}
+
+footer i {
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+footer h3 {
+    color: var(--gris-oscuro);
+}

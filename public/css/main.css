@@ -1,0 +1,79 @@
+main{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    text-align: center;
+    border: solid 1px black;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    height: 440px;
+    width: 300px;
+}
+.container .card .img-container{
+    overflow: hidden;
+    position: relative;
+}
+.container .card .img-container p{
+    font-size: 18px;
+}
+.container .card .img-container img{
+    width: 60%;
+    margin: 15px 0px;
+}
+.container .card .img-container .price{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 20px;
+    background: white;
+    padding: 15px;
+}
+.container .card .img-container .favorite{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.container .card .img-container .favorite svg{
+    transform: translatey(14px);
+    width: 25px;
+}
+.container .card .img-container .favorite:hover svg{
+    fill: red;
+}
+
+.info-container .off{
+    color: var(--verde);
+}
+
+.info-container .align{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-container .align a{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.info-container button{
+    background-color: #3a4a72;
+    padding: 8px 15px;
+    border-radius: 50px;
+    width: 35%;
+    border: solid 1px #3a4a72;
+}
+
+.info-container button:active{
+    background-color: #232a3f;
+}

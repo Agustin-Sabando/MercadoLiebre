@@ -1,0 +1,69 @@
+body {
+    font-family: var(--fuente-principal);
+}
+
+header {
+	background-color: var(--amarillo);
+}
+
+h2 {
+    font-size: var(--titulares);
+}
+h3 {
+    font-size: var(--descuentos-y-descripciones);
+	text-align: center;
+}
+
+strong {
+    font-size: var(--precios);
+}
+
+input {
+	font:inherit;
+}
+
+.search {
+	display:flex;
+	align-items:center;
+}
+
+form {
+	margin: auto;
+}
+
+.busqueda {
+	display: flex;
+	background:#fff;
+    padding: 5px;
+	border-radius: 30px;
+	border:2px solid #cad3dc;
+}
+
+form input {
+	border:none;
+	background: transparent;
+	font-weight: bold;
+	background-size: 16px;
+    background-position: 5px;
+	background-repeat: no-repeat;
+	width: 0px;
+	transition: all 1s;
+}
+
+form input:focus {
+	outline: none;
+	width: 300px;
+}
+
+.burguer {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.burguer i{
+	font-size: 25px;
+	background-color: var(--celeste);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
