@@ -6,6 +6,10 @@ header {
 	background-color: var(--amarillo);
 }
 
+header ul {
+	display: none;
+}
+
 h2 {
     font-size: var(--titulares);
 }
@@ -66,4 +70,14 @@ form input:focus {
     color: white;
     padding: 10px;
     border-radius: 7px;
+}
+
+@media screen and (min-width:461px){
+	header .burguer {
+		display: none;
+	}
+
+	header ul {
+		display: block;
+	}
 }

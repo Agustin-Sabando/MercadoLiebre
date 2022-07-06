@@ -18,36 +18,37 @@ main{
     overflow: hidden;
     position: relative;
 }
+
+.container .card .img-container h4{
+    display: none;
+}
+
 .container .card .img-container p{
     font-size: 18px;
 }
+
 .container .card .img-container img{
     width: 60%;
     margin: 15px 0px;
 }
+
 .container .card .img-container .price{
     position: absolute;
     top: 10px;
     left: 0;
-    font-size: 20px;
+    font-size: var(--precios);
     background: white;
     padding: 15px;
 }
-.container .card .img-container .favorite{
-    position: absolute;
-    top: 10px;
-    right: 10px;
+
+.info-container .camion {
+    color: var(--verde);
+}
+
+.camion i {
+    padding: 9px;
+    border: solid 1px var(--verde);
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-}
-.container .card .img-container .favorite svg{
-    transform: translatey(14px);
-    width: 25px;
-}
-.container .card .img-container .favorite:hover svg{
-    fill: red;
 }
 
 .info-container .off{
@@ -76,4 +77,15 @@ main{
 
 .info-container button:active{
     background-color: #232a3f;
+}
+
+/* tablet */
+@media screen and (min-width:461px){
+    main .card {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .container .card .img-container h4{
+        display: block;
+    }
 }
