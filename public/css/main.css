@@ -41,7 +41,9 @@ main{
     padding: 15px;
 }
 
-.info-container .camion {
+.camion {
+    display: flex;
+    justify-content: flex-end;
     color: var(--verde);
 }
 
@@ -51,7 +53,12 @@ main{
     border-radius: 50%;
 }
 
-.info-container .off{
+.info-container h4 {
+    display: inline-block;
+}
+
+.info-container .off {
+    padding-right: 50%;
     color: var(--verde);
 }
 
@@ -83,6 +90,9 @@ main{
 @media screen and (min-width:461px){
     main .card {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        display: inline-block;
+        justify-content: center;
+        flex-grow: 1;
     }
 
     .container .card .img-container h4{

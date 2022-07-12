@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,123 +8,119 @@
     <script src="https://kit.fontawesome.com/0127a3f2bb.js" crossorigin="anonymous"></script>
     <title>Mercado Liebre</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/public/css/styles.css">
 </head>
+
 <body>
     <header>
-        <!-- Logotipo -->
-        <aside>
+        <div class="logo">
+            <!-- Logotipo -->
 
-          <img class = "logotipo" src="/images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre" width="100%">
-        
-        </aside>
+            <img class="logotipo" src="/public/images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre" width="50%">
 
-        <!-- Barra de búsqueda -->
-        
-        <section class = "search">
-          <form autocomplete="off">
-            <section class = "busqueda">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" name="q" placeholder="Buscar">
+            <!-- Barra de búsqueda -->
+
+            <section class="search">
+                <form autocomplete="off">
+                    <section class="busqueda">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" name="q" placeholder="Buscar productos...">
+                    </section>
+                </form>
             </section>
-          </form>
-        </section>
-        
-        <!-- info -->
-        <h3><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h3>
-        
+            <h3 class = "info"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h3>
+        </div>
+
         <!-- Nav -->
         <nav>
-          <ul type = "none">
-            <li><a href="/ofertas">Ofertas</a></li>
-            <li><a href="/tiendasOficiales">Tiendas Oficiales</a></li>
-            <li><a href="/vender">Vender</a></li>
-            <li><a href="/ayuda">Ayuda</a></li>
-          </ul>
-          <ul type = "none">
-            <li><a href="/crearCuenta">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
-            <li><a href="/ingresar">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
-            <li><a href="/misCompras">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
-          </ul>
-          <!-- Burguer -->
-          <div class = "burguer">
-            <i class="fa-solid fa-bars"></i>
-          </div>
+            <div class="primero">
+                <a href="/ofertas">Ofertas</a>
+                <a href="/tiendasOficiales">Tiendas Oficiales</a>
+                <a href="/vender">Vender</a>
+                <a href="/ayuda">Ayuda</a>
+                <a href="/crearCuenta">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i>
+                <a href="/ingresar">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i>
+                <a href="/misCompras">Mis compras</a><i class="fa-solid fa-basket-shopping"></i>
+            </div>
+            <!-- Burguer -->
         </nav>
+        <div class="burguer">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
-    
+
     <!-- Banner Home -->
-    <img class = "banner" src="/images/img-home-banner.jpg" alt="Banner" width="100%">
-    <main class = "container">
+    <img class="banner" src="/public/images/img-home-banner.jpg" alt="Banner" width="100%">
+    <main class="container">
 
         <h2>Basado en tu última visita</h2>
 
-        <div class = "article">
-            <article class = "card">
+        <div class="article">
+            <article class="card">
                 <div class="img-container">
-                    <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
+                    <img src="/public/images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
+                    <div class="camion">
+                        <i class="fas fa-truck"></i>
+                    </div>
                     <h4>Cafetera Moulinex</h4>
                 </div>
-                <section class = "info-container">
-                    <div class="camion">
-                        <i class="fas fa-truck"></i>
-                    </div>
+                <section class="info-container">
                     <h4>$6.770</h4>
-                    <h4 class = "off">40% OFF</h4>
+                    <h4 class="off">40% OFF</h4>
                     <div class="align">
-                        <button><a class = "details" href="">+ Detalles</a></button>
-                        <button><a class = "add" href="">Añadir</a></button>
+                        <button><a class="details" href="">+ Detalles</a></button>
+                        <button><a class="add" href="">Añadir</a></button>
                     </div>
                 </section>
             </article>
-            <article class = "card">
+            <article class="card">
                 <div class="img-container">
-                    <img src="/images/img-macbook-pro-2019.jpg" alt="Macbook Pro 2019">
+                    <img src="/public/images/img-macbook-pro-2019.jpg" alt="Macbook Pro 2019">
+                    <div class="camion">
+                        <i class="fas fa-truck"></i>
+                    </div>
                     <h4>Macbook Pro 2019</h4>
                 </div>
-                <section class = "info-container">
-                    <div class="camion">
-                        <i class="fas fa-truck"></i>
-                    </div>
+                <section class="info-container">
                     <h4>$230.000</h4>
-                    <h4 class = "off">20% OFF</h4>
+                    <h4 class="off">20% OFF</h4>
                     <div class="align">
-                        <button><a class = "details" href="">+ Detalles</a></button>
-                        <button><a class = "add" href="">Añadir</a></button>
+                        <button><a class="details" href="">+ Detalles</a></button>
+                        <button><a class="add" href="">Añadir</a></button>
                     </div>
                 </section>
             </article>
-            <article class = "card">
+            <article class="card">
                 <div class="img-container">
-                    <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10">
+                    <img src="/public/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10">
+                    <div class="camion">
+                        <i class="fas fa-truck"></i>
+                    </div>
                     <h4>Samsung Galaxy S10</h4>
                 </div>
-                <section class = "info-container">
-                    <div class="camion">
-                        <i class="fas fa-truck"></i>
-                    </div>
+                <section class="info-container">
                     <h4>$70.500</h4>
-                    <h4 class = "off">10% OFF</h4>
+                    <h4 class="off">10% OFF</h4>
                     <div class="align">
-                        <button><a class = "details" href="">+ Detalles</a></button>
-                        <button><a class = "add" href="">Añadir</a></button>
+                        <button><a class="details" href="">+ Detalles</a></button>
+                        <button><a class="add" href="">Añadir</a></button>
                     </div>
                 </section>
             </article>
-            <article class = "card">
+            <article class="card">
                 <div class="img-container">
-                    <img src="/images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung 43">
-                    <h4>SmartTv Samsung 43"</h4>
-                </div>
-                <section class = "info-container">
+                    <img src="/public/images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung 43">
                     <div class="camion">
                         <i class="fas fa-truck"></i>
                     </div>
+                    <h4>SmartTv Samsung 43"</h4>
+                </div>
+                <section class="info-container">
                     <h4>$23.200</h4>
-                    <h4 class = "off">5% OFF</h4>
+                    <h4 class="off">5% OFF</h4>
                     <div class="align">
-                        <button><a class = "details" href="">+ Detalles</a></button>
-                        <button><a class = "add" href="">Añadir</a></button>
+                        <button><a class="details" href="">+ Detalles</a></button>
+                        <button><a class="add" href="">Añadir</a></button>
                     </div>
                 </section>
             </article>
@@ -131,71 +128,72 @@
 
         <h2>Sección de Ofertas</h2>
 
-        <div class = "article">
-            <article class = "card">
+        <div class="article">
+            <article class="card">
                 <div class="img-container">
-                    <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
+                    <img src="/public/images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
+                    <div class="camion">
+                        <i class="fas fa-truck"></i>
+                    </div>
                     <h4>Cafetera Moulinex</h4>
                 </div>
-                <section class = "info-container">
-                    <div class="camion">
-                        <i class="fas fa-truck"></i>
-                    </div>
-                    <h4>$6.770</h4>
-                    <h4 class = "off">40% OFF</h4>
+                <section class="info-container">
+                    <h4 class="precio">$6.770</h4>
+                    <h4 class="off">40% OFF</h4>
                     <div class="align">
-                        <button><a class = "details" href="">+ Detalles</a></button>
-                        <button><a class = "add" href="">Añadir</a></button>
+                        <button><a class="details" href="">+ Detalles</a></button>
+                        <button><a class="add" href="">Añadir</a></button>
                     </div>
                 </section>
             </article>
-            <article class = "card">
+            <article class="card">
                 <div class="img-container">
-                    <img src="/images/img-macbook-pro-2019.jpg" alt="Macbook Pro 2019">
+                    <img src="/public/images/img-macbook-pro-2019.jpg" alt="Macbook Pro 2019">
+                    <div class="camion">
+                        <i class="fas fa-truck"></i>
+                    </div>
                     <h4>Macbook Pro 2019</h4>
                 </div>
-                <section class = "info-container">
-                    <div class="camion">
-                        <i class="fas fa-truck"></i>
-                    </div>
+                <section class="info-container">
                     <h4>$230.000</h4>
+                    <h4 class="off">20% OFF</h4>
                     <div class="align">
-                        <button><a class = "details" href="">+ Detalles</a></button>
-                        <button><a class = "add" href="">Añadir</a></button>
+                        <button><a class="details" href="">+ Detalles</a></button>
+                        <button><a class="add" href="">Añadir</a></button>
                     </div>
                 </section>
             </article>
-            <article class = "card">
+            <article class="card">
                 <div class="img-container">
-                    <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10">
+                    <img src="/public/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10">
+                    <div class="camion">
+                        <i class="fas fa-truck"></i>
+                    </div>
                     <h4>Samsung Galaxy S10</h4>
                 </div>
-                <section class = "info-container">
-                    <div class="camion">
-                        <i class="fas fa-truck"></i>
-                    </div>
+                <section class="info-container">
                     <h4>$70.500</h4>
-                    <h4 class = "off">10% OFF</h4>
+                    <h4 class="off">10% OFF</h4>
                     <div class="align">
-                        <button><a class = "details" href="">+ Detalles</a></button>
-                        <button><a class = "add" href="">Añadir</a></button>
+                        <button><a class="details" href="">+ Detalles</a></button>
+                        <button><a class="add" href="">Añadir</a></button>
                     </div>
                 </section>
             </article>
-            <article class = "card">
+            <article class="card">
                 <div class="img-container">
-                    <img src="/images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung 43">
-                    <h4>SmartTv Samsung 43"</h4>
-                </div>
-                <section class = "info-container">
+                    <img src="/public/images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung 43">
                     <div class="camion">
                         <i class="fas fa-truck"></i>
                     </div>
+                    <h4>SmartTv Samsung 43"</h4>
+                </div>
+                <section class="info-container">
                     <h4>$23.200</h4>
-                    <h4 class = "off">5% OFF</h4>
+                    <h4 class="off">5% OFF</h4>
                     <div class="align">
-                        <button><a class = "details" href="">+ Detalles</a></button>
-                        <button><a class = "add" href="">Añadir</a></button>
+                        <button><a class="details" href="">+ Detalles</a></button>
+                        <button><a class="add" href="">Añadir</a></button>
                     </div>
                 </section>
             </article>
@@ -203,36 +201,40 @@
     </main>
 
     <!-- Footer -->
-    <footer>    
-        
+    <footer>
+
         <section>
-          <div class = "tarjeta">
-              <i class="fa-solid fa-credit-card"></i>
-          </div>
-        <h3>Pagá con tarjeta o en efectivo</h3>
-        <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-      </section>
+            <div class="tarjeta">
+                <i class="fa-solid fa-credit-card"></i>
+            </div>
+            <h3>Pagá con tarjeta o en efectivo</h3>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es
+                seguro!</p>
+        </section>
 
-      <section>
-          <div class = "regalo">
-            <i class="fas fa-gift"></i>
-          </div>
-        <h3>Envío gratis desde $2500</h3>
-        <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
-      </section>
- 
-      <section>
-          <div class = "escudo">
-            <i class="fas fa-user-shield"></i>
-          </div>
-        <h3>Seguridad, de principio a fin</h3>
-        <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
-      </section>
+        <section>
+            <div class="regalo">
+                <i class="fas fa-gift"></i>
+            </div>
+            <h3>Envío gratis desde $2500</h3>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de
+                Mercado Puntos.</p>
+        </section>
 
-      <section>
-        <h3>Copyright © 1999-2020 MercadoLiebre S.R.3</h3>
-      </section>
+        <section>
+            <div class="escudo">
+                <i class="fas fa-user-shield"></i>
+            </div>
+            <h3>Seguridad, de principio a fin</h3>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre
+                protegid@.</p>
+        </section>
+
+        <section>
+            <h3>Copyright © 1999-2020 MercadoLiebre S.R.3</h3>
+        </section>
 
     </footer>
 </body>
+
 </html>
