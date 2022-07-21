@@ -1,0 +1,287 @@
+.registro {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.registro .info input {
+    width: 70%;
+    border-radius: 25px;
+    padding: 9px;
+    margin: 12px;
+}
+
+.registro .interes label {
+    padding: 0 5px 0 5px;
+}
+
+.registro .foto{
+    padding: 9px;
+    margin: 12px;
+}
+
+.registro label {
+    color: black;
+    font-size: 20px;
+}
+
+.registro .contra input {
+    width: 70%;
+    border-radius: 25px;
+    padding: 9px;
+    margin: 12px;
+}
+
+.registro button {
+    background-color: #3a4a72;
+    padding: 8px 0px;
+    margin: 12px 25px;
+    border-radius: 50px;
+    width: 20%;
+    border: solid 1px #3a4a72;
+    color: white;
+}
+
+.registro .enviar a {
+    text-decoration: none;
+    color: white;
+}
+
+.registro button:active {
+    background-color: #232a3f;
+}
+
+@media screen and (min-width:415px) and (max-width:744px){
+    .registro {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .registro .info input {
+        width: 70%;
+        border-radius: 25px;
+        padding: 9px;
+        margin: 12px;
+    }
+
+    .registro .interes label {
+        padding: 0 5px 0 5px;
+    }
+
+    .registro .foto{
+        padding: 9px;
+        margin: 12px;
+    }
+
+    .registro label {
+        color: black;
+        font-size: 20px;
+    }
+
+    .registro .contra input {
+        width: 70%;
+        border-radius: 25px;
+        padding: 9px;
+        margin: 12px;
+    }
+    
+    .registro button {
+        background-color: #3a4a72;
+        padding: 8px 0px;
+        margin: 12px 25px;
+        border-radius: 50px;
+        width: 20%;
+        border: solid 1px #3a4a72;
+        color: white;
+    }
+    
+    .registro .enviar a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .registro button:active {
+        background-color: #232a3f;
+    }
+}
+
+@media screen and (min-width:745px) and (max-width:1024px){
+    .registro {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .registro .info input {
+        width: 90%;
+        border-radius: 25px;
+        padding: 9px;
+        margin: 12px;
+    }
+
+    .registro .interes label {
+        padding: 0 5px 0 5px;
+    }
+
+    .registro .foto{
+        padding: 9px;
+        margin: 12px;
+    }
+
+    .registro label {
+        color: black;
+        font-size: 20px;
+    }
+
+    .registro .contra input {
+        width: 90%;
+        border-radius: 25px;
+        padding: 9px;
+        margin: 12px;
+    }
+    
+    .registro button {
+        background-color: #3a4a72;
+        padding: 8px 0px;
+        margin: 12px 25px;
+        border-radius: 50px;
+        width: 20%;
+        border: solid 1px #3a4a72;
+        color: white;
+    }
+    
+    .registro .enviar a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .registro button:active {
+        background-color: #232a3f;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .registro {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .registro .info input {
+        width: 90%;
+        border-radius: 25px;
+        padding: 9px;
+        margin: 12px;
+    }
+
+    .registro .interes label {
+        padding: 0 5px 0 5px;
+    }
+
+    .registro .foto{
+        padding: 9px;
+        margin: 12px;
+    }
+
+    .registro label {
+        color: black;
+        font-size: 20px;
+    }
+
+    .registro .contra input {
+        width: 90%;
+        border-radius: 25px;
+        padding: 9px;
+        margin: 12px;
+    }
+    
+    .registro button {
+        background-color: #3a4a72;
+        padding: 8px 0px;
+        margin: 12px 25px;
+        border-radius: 50px;
+        width: 20%;
+        border: solid 1px #3a4a72;
+        color: white;
+    }
+    
+    .registro .enviar a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .registro button:active {
+        background-color: #232a3f;
+    }
+}
+
+@media screen and (min-width:1441px) and (max-width:1920px){
+    .registro {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .registro .info input {
+        width: 90%;
+        border-radius: 25px;
+        padding: 9px;
+        margin: 12px;
+    }
+
+    .registro .interes label {
+        padding: 0 5px 0 5px;
+    }
+
+    .registro .foto{
+        padding: 9px;
+        margin: 12px;
+    }
+
+    .registro label {
+        color: black;
+        font-size: 20px;
+    }
+
+    .registro .contra input {
+        width: 90%;
+        border-radius: 25px;
+        padding: 9px;
+        margin: 12px;
+    }
+    
+    .registro button {
+        background-color: #3a4a72;
+        padding: 8px 0px;
+        margin: 12px 25px;
+        border-radius: 50px;
+        width: 20%;
+        border: solid 1px #3a4a72;
+        color: white;
+    }
+    
+    .registro .enviar a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .registro button:active {
+        background-color: #232a3f;
+    }
+}
